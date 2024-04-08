@@ -1,9 +1,6 @@
-from flask import current_app as app
-from flask import render_template
+from flask import render_template, current_app as app
 
-@app.route('/', methods=['GET'])
+
+@app.route('/')
 def index():
-    """
-    Returns a HTML page, based on the template.
-    """
     return render_template('index.html')
