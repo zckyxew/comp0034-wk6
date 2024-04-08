@@ -3,5 +3,5 @@ Flask
 Flask-SQLAlchemy
 
 # For Dash apps
-dash
-dash-bootstrap-components
+# dash
+# dash-bootstrap-components
